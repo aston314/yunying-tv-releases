@@ -1,8 +1,19 @@
 # 云映 TV
 
-为 Android TV 和电视盒子设计的视频浏览与播放应用。使用遥控器浏览海报、筛选分类、搜索内容、选择集数，并接着上次的进度继续观看。
+跨平台的视频浏览与播放应用，面向 Android TV / 电视盒子，以及 macOS、Windows、Linux。浏览海报、筛选分类、搜索内容、选择集数，并接着上次的进度继续观看；电视使用遥控器，电脑使用键盘和鼠标。
 
 **[下载最新版本](https://github.com/aston314/yunying-tv-releases/releases/latest)** · **[查看所有版本](https://github.com/aston314/yunying-tv-releases/releases)**
+
+## 平台与下载
+
+| 平台 | 下载状态 | 更新方式 |
+| --- | --- | --- |
+| Android TV / 电视盒子 | [v0.1.44 APK](https://github.com/aston314/yunying-tv-releases/releases/tag/v0.1.44) | 应用内检查、下载，交给系统安装器覆盖安装；新入口需要迁移版本 |
+| macOS（Intel / Apple Silicon） | 桌面客户端正在补齐，安装包尚未发布 | 应用内检查、下载并校验更新 ZIP，退出后替换应用 |
+| Windows x64 | 桌面客户端正在补齐，安装包尚未发布 | 应用内检查、下载并校验更新 ZIP，退出后替换完整程序目录 |
+| Linux amd64 / arm64 | 已有服务端版本，公开下载文件正在补齐 | 手动下载、解压运行；界面在浏览器中使用 |
+
+各平台复用资源规则和 Web 界面。Android 使用 Media3 / HTML5，电脑使用系统 WebView 或浏览器的 HTML5 能力，支持的编码由系统和视频本身决定。
 
 ## 应用功能
 
@@ -31,7 +42,7 @@
 
 ![播放器进度、选集、字幕、倍速、片头片尾和分辨率](docs/screenshots/player.png)
 
-## 安装与开始体验
+## Android 安装与开始体验
 
 1. 打开 [版本下载页](https://github.com/aston314/yunying-tv-releases/releases/latest)，在 Assets 中下载 `.apk` 文件。
 2. 将 APK 安装到电视或盒子；如果系统询问安装来源权限，允许对应的安装来源。
