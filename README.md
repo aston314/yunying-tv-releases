@@ -11,9 +11,11 @@
 | Android TV / 电视盒子 | [v0.1.44 APK](https://github.com/aston314/yunying-tv-releases/releases/tag/v0.1.44) | 应用内检查、下载，交给系统安装器覆盖安装；新入口需要迁移版本 |
 | macOS（Intel / Apple Silicon） | 桌面客户端正在补齐，安装包尚未发布 | 应用内检查、下载并校验更新 ZIP，退出后替换应用 |
 | Windows x64 | 桌面客户端正在补齐，安装包尚未发布 | 应用内检查、下载并校验更新 ZIP，退出后替换完整程序目录 |
-| Linux amd64 / arm64 | 已有服务端版本，公开下载文件正在补齐 | 手动下载、解压运行；界面在浏览器中使用 |
+| Linux amd64 / arm64 | [v0.1.30 服务端压缩包](https://github.com/aston314/yunying-tv-releases/releases/tag/v0.1.30)（较早版本） | 手动下载、解压运行；界面在浏览器中使用 |
 
 各平台复用资源规则和 Web 界面。Android 使用 Media3 / HTML5，电脑使用系统 WebView 或浏览器的 HTML5 能力，支持的编码由系统和视频本身决定。
+
+桌面客户端的搜索和资源配置直接用键盘输入或粘贴，不显示这两处扫码入口。应用右上角不显示全屏按钮，播放器右下角保留全屏播放按钮。账号扫码登录独立保留。
 
 ## 应用功能
 
